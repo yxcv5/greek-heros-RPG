@@ -1,0 +1,54 @@
+
+.container {
+	background-image: url("../images/background.jpg");
+	height: 100%;
+    min-height: 100vh;
+}
+
+.page-header h1 {
+	position: relative;
+	left: 50%;
+	color: #e8c588;
+}
+
+.panel-default>.panel-heading {
+	background-color: #e8c588;
+}
+
+.panel-title {
+	font-size: 18px;
+}
+
+.player_div {
+	border: 2px solid green;
+	width: 22%;
+    float: left;
+    position: relative;
+    padding: 10px;
+    margin: 0 5px;
+}
+
+.player_img {
+	width: 90%;
+}
+
+.game_buttons {
+	margin-top: 10px;
+}
+
+button {
+	position: relative;
+	left: 15%;
+}
+
+.btn-warning {
+	background-color: #db941a;
+}
+
+#game_over {
+	position: fixed;
+	left: 30%;
+	top: 20%;
+	z-index: 10;
+}
+
